@@ -1,7 +1,7 @@
 import Image from "next/image";
 import bg from "../../public/background/home.png";
 import RenderModel from "@/components/RenderModel";
-import Wand from "@/components/models/Wand";
+import Witch from "@/components/models/Witch";
 
 export default function Home() {
   return (
@@ -10,12 +10,12 @@ export default function Home() {
         src={bg}
         alt="background-image"
         fill
-        className="-z-50 w-full h-full object-cover object-center opacity-75"
+        className="-z-50 w-full h-full object-cover object-center"
       />
       <div className="w-full h-screen">
         {/* render navigation and 3d model */}
         <RenderModel>
-          <Wand />
+          <Witch />
         </RenderModel>
       </div>
     </main>
