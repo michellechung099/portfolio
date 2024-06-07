@@ -10,7 +10,7 @@ export default function Home() {
         src={bg}
         alt="background-image"
         fill
-        className="-z-50 w-full h-full object-cover object-center"
+        className="-z-50 w-full h-full object-cover object-center opacity-90"
       />
       <div className="w-full h-screen">
         {/* render navigation and 3d model */}

@@ -1,16 +1,27 @@
 "use client";
 import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
+import { useFrame } from "@react-three/fiber";
 
 export default function Witch(props) {
   const { nodes, materials } = useGLTF("/models/scene-transformed.glb");
+
+  const modelRef = useRef();
+
+  useFrame((state, delta, xrFrame) => {
+    // console.log(state.clock);
+    modelRef.current.position.y =
+      -2.7 + Math.sin(state.clock.elapsedTime) * 0.15;
+  });
+
   return (
     <group
       {...props}
+      ref={modelRef}
       dispose={null}
       position={[0.4, -2.7, 0]}
-      scale={[0.4, 0.4, 0.4]}
-      rotation={[0.1, 0, 0]}
+      scale={[0.35, 0.35, 0.35]}
+      rotation={[0, 0.15, -0.04]}
     >
       <primitive object={nodes._rootJoint} />
       <skinnedMesh

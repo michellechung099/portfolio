@@ -13,3 +13,38 @@
 
 @layer utilities {
 }
+
+.star {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(
+    45deg,
+    rgba(128, 0, 128, 0.7),
+    rgba(255, 192, 203, 0.7),
+    rgba(255, 255, 0, 0.7)
+  );
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+}
+
+@keyframes move {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(100px, 100px);
+  }
+}
+
+/* absolute rounded-full bg-gradient-to-r from-purple-400/70 via-pink-500/70 to-yellow-500/70 w-[15px] h-[15px] */
