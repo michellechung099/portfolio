@@ -5,7 +5,7 @@ const createStars = () => ({
   id: Math.random(),
   top: `${Math.random() * 100}%`,
   left: `${Math.random() * 100}%`,
-  animationDuration: `${Math.random() * 5 + 5}s`,
+  animationDuration: `${Math.random() * 3 + 5}s`,
 });
 
 const Stars = () => {
@@ -14,7 +14,7 @@ const Stars = () => {
   useEffect(() => {
     const addStarsPeriodically = () => {
       const newStar = createStars();
-      setStars((currentStars) => [...currentStars.slice(-14), newStar]);
+      setStars((currentStars) => [...currentStars.slice(-60), newStar]);
     };
 
     const interval = setInterval(addStarsPeriodically, 1000);

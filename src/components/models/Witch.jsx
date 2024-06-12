@@ -11,7 +11,7 @@ export default function Witch(props) {
   useFrame((state, delta, xrFrame) => {
     // console.log(state.clock);
     modelRef.current.position.y =
-      -2.7 + Math.sin(state.clock.elapsedTime) * 0.15;
+      -2.1 + Math.sin(state.clock.elapsedTime) * 0.15;
   });
 
   return (
@@ -19,9 +19,9 @@ export default function Witch(props) {
       {...props}
       ref={modelRef}
       dispose={null}
-      position={[0.4, -2.7, 0]}
+      position={[0.4, -2.1, 0]}
       scale={[0.35, 0.35, 0.35]}
-      rotation={[0, 0.15, -0.04]}
+      rotation={[0, 0.03, -0.02]}
     >
       <primitive object={nodes._rootJoint} />
       <skinnedMesh
