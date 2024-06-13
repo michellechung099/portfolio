@@ -7,7 +7,7 @@ import * as random from "maath/random/dist/maath-random.esm";
 function ThreeStars(props) {
   const ref = useRef();
   const [sphere] = useState(() =>
-    random.inSphere(new Float32Array(5000), { radius: 1.5 })
+    random.inSphere(new Float32Array(1000), { radius: 1.5 })
   );
 
   useFrame((state, delta) => {
@@ -25,8 +25,8 @@ function ThreeStars(props) {
       >
         <PointMaterial
           transparent
-          opacity={0.6}
-          color="#EE4B2B"
+          opacity={0.7}
+          // color="#EE4B2B"
           size={0.005}
           sizeAttenuation={true}
           depthWrite={false}

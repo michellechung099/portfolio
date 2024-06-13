@@ -26,28 +26,34 @@ export const ButtonList = [
     icon: "blog",
     newTab: true,
   },
-  { label: "Resume", link: "/resume.pdf", icon: "resume", newTab: true },
+  {
+    label: "Resume",
+    link: "/resume/resume.pdf",
+    icon: "resume",
+    newTab: true,
+  },
 ];
 
-export const projectList = [
+export const projectData = [
   {
     id: 1,
     name: "Cat Defense",
-    description: "",
+    description: "single page tower defense game with Canvas",
     demoLink: "https://michellechung099.github.io/CatDefense/",
     sourceCode: "https://github.com/michellechung099/CatDefense",
   },
   {
     id: 2,
     name: "Event Me",
-    description: "",
+    description:
+      "Eventbrite clone where users can host events and purchase tickets",
     demoLink: "https://eventme.onrender.com/",
     sourceCode: "https://github.com/michellechung099/EventMe",
   },
   {
     id: 3,
     name: "Grub Globe",
-    description: "",
+    description: "interactive global recipe exploring app",
     demoLink: "https://grubglobe.herokuapp.com/",
     sourceCode: "https://github.com/ziqi23/Grub-Globe-2",
   },

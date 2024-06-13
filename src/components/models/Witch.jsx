@@ -19,9 +19,9 @@ export default function Witch(props) {
       {...props}
       ref={modelRef}
       dispose={null}
-      position={[0.4, -2.1, 0]}
+      position={[-0.1, -2.1, 0]}
       scale={[0.35, 0.35, 0.35]}
-      rotation={[0, 0.03, -0.02]}
+      rotation={[0, 0.1, -0.02]}
     >
       <primitive object={nodes._rootJoint} />
       <skinnedMesh

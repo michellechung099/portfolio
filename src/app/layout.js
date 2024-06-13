@@ -19,9 +19,6 @@ export default function RootLayout({ children }) {
           <StarsCanvas />
         </div>
         {children}
-        {/* <Stars /> */}
-        <StarsCanvas />
-        {/* <Lights /> */}
       </body>
     </html>
   );
