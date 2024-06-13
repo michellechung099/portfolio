@@ -21,9 +21,9 @@ export const ButtonList = [
     newTab: true,
   },
   {
-    label: "Wellfound",
-    link: "https://wellfound.com/u/michelle-chung-16",
-    icon: "wellfound",
+    label: "Blog",
+    link: "https://elementsmichelle.com/",
+    icon: "blog",
     newTab: true,
   },
   { label: "Resume", link: "/resume.pdf", icon: "resume", newTab: true },
