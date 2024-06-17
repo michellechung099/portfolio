@@ -11,8 +11,9 @@ export default function Home() {
         src={bg}
         alt="background-image"
         fill
-        className="-z-50 w-full h-full object-cover object-center opacity-80"
+        className="-z-50 w-full h-full object-cover object-center opacity-85"
       />
+      <div className="absolute w-full h-full bg-black opacity-50 -z-40"></div>
       <div className="w-full h-screen">
         <Navigation />
         <RenderModel>

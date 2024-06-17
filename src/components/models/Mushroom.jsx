@@ -18,7 +18,8 @@ export function Mushroom(props) {
       ref={mushroomRef}
       dispose={null}
       position={[0, 3.8, 0]}
-      scale={[0.75, 0.75, 0.75]}
+      scale={[0.7, 0.7, 0.7]}
+      rotation={[0, 0.6, 0]}
     >
       <mesh
         castShadow
