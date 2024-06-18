@@ -6,7 +6,7 @@ const ItemLayout = ({ children, className }) => {
   return (
     <div
       className={clsx(
-        "custom-bg p-8 rounded-xl flex items-center justify-center space-y-8",
+        "custom-bg p-6 sm:p-8 rounded-xl flex items-center justify-center space-y-8",
         className
       )}
     >
@@ -18,12 +18,16 @@ const ItemLayout = ({ children, className }) => {
 const AboutMe = () => {
   return (
     <section className="py-20 w-full">
-      <div className="grid grid-cols-12 gap-8 w-full">
-        <ItemLayout className={"col-span-8 row-span-2 flex-col items-start"}>
-          <h2 className="text-2xl text-left w-full capitalize text-accent">
+      <div className="grid grid-cols-12 gap-4 xs:gap-6 md:gap-8 w-full">
+        <ItemLayout
+          className={
+            "col-span-full lg:col-span-8 row-span-2 flex-col items-start"
+          }
+        >
+          <h2 className="text-xl md:text-2xl text-left w-full capitalize text-accent">
             Full-stack engineer & hobbyist gamer
           </h2>
-          <p className="font-light">
+          <p className="font-light text-xs sm:text-sm md:text-base">
             A recent full-stack software engineer at Pear VC-backed Dorsal AI. I
             designed a dashboard to help users extract text-based features from
             SEC filings and earnings call transcripts with Langchain and gpt-4.
@@ -33,20 +37,30 @@ const AboutMe = () => {
             looking to work on new applications of LLMs and 3D tools.
           </p>
         </ItemLayout>
-        <ItemLayout className={"col-span-4 flex-col items-start space-y-3"}>
-          <h2 className="text-xl text-left w-full capitalize text-accent">
+
+        <ItemLayout
+          className={
+            "col-span-full xs:col-span-6 lg:col-span-4 flex-col items-start space-y-3 sm:space-y-4 xxs:space-y-4"
+          }
+        >
+          <h2 className="text-xl md:text-2xl text-left w-full capitalize text-accent">
             Interests
           </h2>
-          <p className="font-light">
+          <p className="font-light text-xs sm:text-sm md:text-base">
             electric guitar, writing, reading, gaming, jazz bars, yoga, watching
             anime
           </p>
         </ItemLayout>
-        <ItemLayout className={"col-span-4 flex-col items-start space-y-3"}>
-          <h2 className="text-xl text-left w-full capitalize text-accent">
+
+        <ItemLayout
+          className={
+            "col-span-full xs:col-span-6 lg:col-span-4 flex-col items-start space-y-3 sm:space-y-4 xxs:space-y-4"
+          }
+        >
+          <h2 className="text-xl md:text-2xl text-left w-full capitalize text-accent">
             Fav Games
           </h2>
-          <p className="font-light">
+          <p className="font-light text-xs sm:text-sm md:text-base">
             Terraria, Hades 2, Stardew Valley, League of Legends, Genshin Impact
           </p>
         </ItemLayout>
@@ -71,7 +85,7 @@ const AboutMe = () => {
           />
         </ItemLayout>
 
-        <ItemLayout className={"col-span-full"}>
+        <ItemLayout className={"col-span-full md:col-span-8"}>
           <img
             className="w-full h-auto"
             src="https://skillicons.dev/icons?i=js,html,css,aws,babel,express,git,heroku,jquery,mongodb,nextjs,nodejs,postgres,postman,rails,react,redux,ruby,supabase,tailwind,threejs,ts,ubuntu,vercel,obsidian,django&theme=dark"
