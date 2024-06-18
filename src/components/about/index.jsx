@@ -33,24 +33,27 @@ const AboutMe = () => {
             looking to work on new applications of LLMs and 3D tools.
           </p>
         </ItemLayout>
-        <ItemLayout className={"col-span-4 flex-col items-start space-y-5"}>
-          <h2 className="text-2xl text-left w-full capitalize text-accent">
+        <ItemLayout className={"col-span-4 flex-col items-start space-y-3"}>
+          <h2 className="text-xl text-left w-full capitalize text-accent">
             Interests
           </h2>
-          <p className="text-base font-light">
-            electric guitar, writing, reading, gaming, jazz bars, yoga
+          <p className="font-light">
+            electric guitar, writing, reading, gaming, jazz bars, yoga, watching
+            anime
           </p>
         </ItemLayout>
-        <ItemLayout className={"col-span-4 flex-col items-start space-y-5"}>
-          <h2 className="text-2xl text-left w-full capitalize text-accent">
+        <ItemLayout className={"col-span-4 flex-col items-start space-y-3"}>
+          <h2 className="text-xl text-left w-full capitalize text-accent">
             Fav Games
           </h2>
-          <p className="text-base font-light">
+          <p className="font-light">
             Terraria, Hades 2, Stardew Valley, League of Legends, Genshin Impact
           </p>
         </ItemLayout>
 
-        <ItemLayout className={"col-span-4 !p-0"}>
+        <ItemLayout
+          className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}
+        >
           <img
             className="w-full h-auto"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=michellechung099&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&show_icons=true"
@@ -59,10 +62,19 @@ const AboutMe = () => {
           />
         </ItemLayout>
 
-        <ItemLayout className={"col-span-8 !p-0"}>
+        <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
           <img
             className="w-full h-auto"
             src="https://github-readme-stats.vercel.app/api?username=michellechung099&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&show_icons=true"
+            alt="Michelle Github Stats"
+            loading="lazy"
+          />
+        </ItemLayout>
+
+        <ItemLayout className={"col-span-full"}>
+          <img
+            className="w-full h-auto"
+            src="https://skillicons.dev/icons?i=js,html,css,aws,babel,express,git,heroku,jquery,mongodb,nextjs,nodejs,postgres,postman,rails,react,redux,ruby,supabase,tailwind,threejs,ts,ubuntu,vercel,obsidian,django&theme=dark"
             alt="Michelle Github Stats"
             loading="lazy"
           />

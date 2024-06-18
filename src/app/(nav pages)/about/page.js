@@ -12,7 +12,7 @@ export default function About() {
         alt="background-image"
         className="-z-50 fixed w-full top-0 left-0 h-full object-cover object-center opacity-80"
       />
-      <div className="w-full h-screen absolute -translate-x-9 -translate-y-[12%]">
+      <div className="w-full h-screen absolute -translate-x-9 -translate-y-[40%]">
         <RenderModel>
           <Mushroom />
         </RenderModel>

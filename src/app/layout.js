@@ -1,8 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import clsx from "clsx";
-import Stars from "@/components/Stars";
-import Lights from "@/components/Lights";
 import StarsCanvas from "@/components/ThreeStars";
 
 // imports Inter font from Google fonts
