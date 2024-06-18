@@ -11,10 +11,12 @@ export default function Projects() {
         sizes="100vw"
         src={bg}
         alt="background-image"
-        className="-z-50 fixed w-full h-full object-cover object-center opacity-90"
+        className="fixed w-full h-full object-cover object-center opacity-90"
       />
-      <div className="absolute w-full h-full bg-black opacity-70 -z-40"></div>
-      <ProjectList projects={projectData} />
+      <div className="absolute w-full h-full bg-black opacity-70"></div>
+      <div className="relative z-10">
+        <ProjectList projects={projectData} />
+      </div>
     </>
   );
 }
