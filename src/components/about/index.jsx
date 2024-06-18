@@ -1,19 +1,6 @@
 import React from "react";
-import AboutLayout from "./AboutLayout";
+import ItemLayout from "./ItemLayout";
 import clsx from "clsx";
-
-const ItemLayout = ({ children, className }) => {
-  return (
-    <div
-      className={clsx(
-        "custom-bg p-6 sm:p-8 rounded-xl flex items-center justify-center space-y-8",
-        className
-      )}
-    >
-      {children}
-    </div>
-  );
-};
 
 const AboutMe = () => {
   return (
@@ -70,7 +57,7 @@ const AboutMe = () => {
         >
           <img
             className="w-full h-auto"
-            src="https://github-readme-stats.vercel.app/api/top-langs/?username=michellechung099&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&show_icons=true"
+            src={`${process.env.PUBLIC_GITHUB_STATS_URL}/api/top-langs/?username=michellechung099&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&show_icons=true`}
             alt="Michelle Github Stats"
             loading="lazy"
           />
@@ -79,13 +66,13 @@ const AboutMe = () => {
         <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
           <img
             className="w-full h-auto"
-            src="https://github-readme-stats.vercel.app/api?username=michellechung099&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&show_icons=true"
+            src={`${process.env.PUBLIC_GITHUB_STATS_URL}/api?username=michellechung099&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&show_icons=true`}
             alt="Michelle Github Stats"
             loading="lazy"
           />
         </ItemLayout>
 
-        <ItemLayout className={"col-span-full md:col-span-8"}>
+        <ItemLayout className={"col-span-full"}>
           <img
             className="w-full h-auto"
             src="https://skillicons.dev/icons?i=js,html,css,aws,babel,express,git,heroku,jquery,mongodb,nextjs,nodejs,postgres,postman,rails,react,redux,ruby,supabase,tailwind,threejs,ts,ubuntu,vercel,obsidian,django&theme=dark"

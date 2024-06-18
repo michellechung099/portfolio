@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import clsx from "clsx";
 
-const AboutLayout = ({ children, className }) => {
+const ItemLayout = ({ children, className }) => {
   return (
     <motion.div
       initial={{ scale: 0 }}
@@ -19,4 +19,4 @@ const AboutLayout = ({ children, className }) => {
   );
 };
 
-export default AboutLayout;
+export default ItemLayout;
