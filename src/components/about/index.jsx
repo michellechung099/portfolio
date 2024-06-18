@@ -35,8 +35,7 @@ const AboutMe = () => {
             Interests
           </h2>
           <p className="font-light text-xs sm:text-sm md:text-base">
-            electric guitar, writing, reading, gaming, jazz bars, yoga, watching
-            anime
+            electric guitar, writing, reading, gaming, jazz bars, yoga, anime
           </p>
         </ItemLayout>
 
