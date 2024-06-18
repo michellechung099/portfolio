@@ -1,7 +1,7 @@
 import React from "react";
 import ItemLayout from "./ItemLayout";
 import clsx from "clsx";
-import Image from "next/image";
+// import Image from "next/image";
 
 const AboutMe = () => {
   return (
@@ -56,7 +56,7 @@ const AboutMe = () => {
         <ItemLayout
           className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}
         >
-          <Image
+          <img
             className="w-full h-auto"
             src={`${process.env.PUBLIC_GITHUB_STATS_URL}/api/top-langs/?username=michellechung099&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&show_icons=true`}
             alt="Michelle Github Stats"
@@ -65,7 +65,7 @@ const AboutMe = () => {
         </ItemLayout>
 
         <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
-          <Image
+          <img
             className="w-full h-auto"
             src={`${process.env.PUBLIC_GITHUB_STATS_URL}/api?username=michellechung099&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&show_icons=true`}
             alt="Michelle Github Stats"
@@ -74,7 +74,7 @@ const AboutMe = () => {
         </ItemLayout>
 
         <ItemLayout className={"col-span-full"}>
-          <Image
+          <img
             className="w-full h-auto"
             src="https://skillicons.dev/icons?i=js,html,css,aws,babel,express,git,heroku,jquery,mongodb,nextjs,nodejs,postgres,postman,rails,react,redux,ruby,supabase,tailwind,threejs,ts,ubuntu,vercel,obsidian,django&theme=dark"
             alt="Michelle Github Stats"
