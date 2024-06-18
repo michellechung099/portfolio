@@ -8,6 +8,8 @@ export default function About() {
   return (
     <>
       <Image
+        priority
+        sizes="100vw"
         src={bg}
         alt="background-image"
         className="-z-50 fixed w-full top-0 left-0 h-full object-cover object-center opacity-80"

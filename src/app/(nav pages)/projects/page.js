@@ -7,6 +7,8 @@ export default function Projects() {
   return (
     <>
       <Image
+        priority
+        sizes="100vw"
         src={bg}
         alt="background-image"
         className="-z-50 fixed w-full h-full object-cover object-center opacity-90"
