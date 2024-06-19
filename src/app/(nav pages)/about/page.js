@@ -22,7 +22,7 @@ export default function About() {
 
       <div className="relative w-full h-screen flex flex-col items-center justify-center">
         <div className="absolute flex flex-col items-center text-center top-[20%] sm:top-[15%] left-1/2 -translate-y-1/2 -translate-x-1/2">
-          <h1 className="font-bold text-7xl xs:text-8xl sm:text-9xl lg:text-9xl text-accent">
+          <h1 className="font-bold text-6xl xs:text-7xl sm:text-8xl lg:text-8xl text-accent">
             Michelle
           </h1>
           <p className="font-light text-foreground text-ls">

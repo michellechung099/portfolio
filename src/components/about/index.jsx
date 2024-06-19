@@ -57,7 +57,7 @@ const AboutMe = () => {
         >
           <img
             className="w-full h-auto"
-            src={`${process.env.PUBLIC_GITHUB_STATS_URL}/api/top-langs/?username=michellechung099&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&show_icons=true`}
+            src={`${process.env.PUBLIC_GITHUB_STATS_URL}/api/top-langs/?username=michellechung099&theme=transparent&hide_border=true&title_color=FFD700&text_color=E1E1E1&icon_color=FFD700&text_bold=false&show_icons=true`}
             alt="Michelle Github Stats"
             loading="lazy"
           />
@@ -66,7 +66,7 @@ const AboutMe = () => {
         <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
           <img
             className="w-full h-auto"
-            src={`${process.env.PUBLIC_GITHUB_STATS_URL}/api?username=michellechung099&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&show_icons=true`}
+            src={`${process.env.PUBLIC_GITHUB_STATS_URL}/api?username=michellechung099&theme=transparent&hide_border=true&title_color=FFD700&text_color=E1E1E1&icon_color=FFD700&text_bold=false&show_icons=true`}
             alt="Michelle Github Stats"
             loading="lazy"
           />
