@@ -57,4 +57,11 @@ export const projectData = [
     demoLink: "https://grubglobe.herokuapp.com/",
     sourceCode: "https://github.com/ziqi23/Grub-Globe-2",
   },
+  {
+    id: 4,
+    name: "Anime Shaders",
+    description: "shader demonstration on anime-styled images",
+    demoLink: "https://anime-shaders.vercel.app/",
+    sourceCode: "https://github.com/michellechung099/glsl-shaders",
+  },
 ];

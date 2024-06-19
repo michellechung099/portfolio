@@ -1,7 +1,5 @@
 import React from "react";
 import ItemLayout from "./ItemLayout";
-import clsx from "clsx";
-// import Image from "next/image";
 
 const AboutMe = () => {
   return (
