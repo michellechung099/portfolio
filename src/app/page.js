@@ -8,11 +8,12 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between relative">
       <Image
-        priority
+        priority={true}
+        placeholder="blur"
         sizes="100vw"
         src={bg}
         alt="background-image"
-        fill
+        fill={true}
         className="-z-50 w-full h-full object-cover object-center opacity-85"
       />
       <div className="absolute w-full h-full bg-black opacity-50 -z-40"></div>

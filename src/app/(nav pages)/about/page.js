@@ -8,7 +8,9 @@ export default function About() {
   return (
     <>
       <Image
-        priority
+        priority={true}
+        placeholder="blur"
+        fill={true}
         sizes="100vw"
         src={bg}
         alt="background-image"

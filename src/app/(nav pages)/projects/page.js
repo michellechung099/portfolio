@@ -7,7 +7,9 @@ export default function Projects() {
   return (
     <>
       <Image
-        priority
+        priority={true}
+        placeholder="blur"
+        fill={true}
         sizes="100vw"
         src={bg}
         alt="background-image"
