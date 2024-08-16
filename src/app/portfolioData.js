@@ -71,4 +71,13 @@ export const projectData = [
     demoLink: "https://michelle-chat-pdf.streamlit.app/",
     sourceCode: "https://github.com/michellechung099/chat-PDF-",
   },
+  {
+    id: 6,
+    name: "Parallax",
+    description:
+      "interactive image gallery that combines smooth scrolling with a parallax effect",
+    demoLink:
+      "https://parallax-7lqh1fvwk-michellechung099s-projects.vercel.app/",
+    sourceCode: "https://github.com/michellechung099/parallax",
+  },
 ];
