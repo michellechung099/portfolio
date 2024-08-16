@@ -64,11 +64,11 @@ export const projectData = [
     demoLink: "https://anime-shaders.vercel.app/",
     sourceCode: "https://github.com/michellechung099/glsl-shaders",
   },
-  // {
-  //   id: 5,
-  //   name: "chat PDF",
-  //   description: "PDF analysis app with an interactive chat",
-  //   demoLink: "https://michelle-chat-pdf.streamlit.app/",
-  //   sourceCode: "https://github.com/michellechung099/chat-PDF-",
-  // },
+  {
+    id: 5,
+    name: "Chat PDF",
+    description: "PDF analysis app with an interactive chat bot",
+    demoLink: "https://michelle-chat-pdf.streamlit.app/",
+    sourceCode: "https://github.com/michellechung099/chat-PDF-",
+  },
 ];
