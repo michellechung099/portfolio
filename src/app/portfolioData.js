@@ -82,9 +82,9 @@ export const projectData = [
   },
   {
     id: 7,
-    name: "Drawing mobile app Onboarding Frontend",
+    name: "Drawing mobile app",
     description:
-      "A mobile app that helps users draw their uploaded photos - onboarding frontend part. demo included in Github Repo Read Me",
+      "A mobile app that helps users draw their uploaded photos - onboarding frontend part. demo included in GitHub Read Me",
     demoLink: "https://github.com/michellechung099/drawing",
     sourceCode: "https://github.com/michellechung099/drawing",
   },
