@@ -80,4 +80,12 @@ export const projectData = [
       "https://parallax-7lqh1fvwk-michellechung099s-projects.vercel.app/",
     sourceCode: "https://github.com/michellechung099/parallax",
   },
+  {
+    id: 7,
+    name: "Drawing mobile app Onboarding Frontend",
+    description:
+      "A mobile app that helps users draw their uploaded photos - onboarding frontend part. demo included in Github Repo Read Me",
+    demoLink: "https://github.com/michellechung099/drawing",
+    sourceCode: "https://github.com/michellechung099/drawing",
+  },
 ];
