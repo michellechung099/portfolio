@@ -13,9 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={clsx(inter.variable, "bg-background, text-foreground")}>
-        <div className="fixed top-0 left-0 w-full h-full -z-10">
-          <StarsCanvas />
-        </div>
+        <div className="fixed top-0 left-0 w-full h-full -z-10"></div>
         {children}
       </body>
     </html>
